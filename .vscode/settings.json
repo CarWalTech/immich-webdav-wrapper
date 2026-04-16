@@ -1,0 +1,41 @@
+{
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
+        "**/flutter/ephemeral": true,
+        "**/Flutter/ephemeral": true,
+        "**/.symlinks": true,
+        "**/.plugin_symlinks": true,
+        "**/__pycache__": true
+    },
+    "python.analysis.diagnosticMode": "workspace",
+    "python.REPL.enableREPLSmartSend": false,
+    "python.analysis.importFormat": "absolute",
+    "python.analysis.autoImportCompletions": true,
+    "python.analysis.typeEvaluation.analyzeUnannotatedFunctions": true,
+    "python.analysis.indexing": true,
+    "python.REPL.provideVariables": false,
+    "python.analysis.completeFunctionParens": false,
+    "python.analysis.useLibraryCodeForTypes": true,
+    "python.analysis.typeCheckingMode": "off",
+    "python.analysis.persistAllIndices": true,
+    "python.analysis.supportDocstringTemplate": false,
+    "python.analysis.typeEvaluation.deprecateTypingAliases": false,
+    "python.analysis.stubPath": "typings",
+    "python.analysis.inlayHints.functionReturnTypes": false,
+    "python.analysis.inlayHints.variableTypes": false,
+    "python.analysis.fixAll": [
+        "source.convertImportFormat",
+        "source.unusedImports"
+    ],
+    "python.analysis.diagnosticSeverityOverrides": {
+        "reportImportCycles": "none"
+    },
+    "editor.codeActionsOnSave": {
+        "source.fixAll.pylance": "always"
+    },
+    "workbench.editor.wrapTabs": true,
+}
